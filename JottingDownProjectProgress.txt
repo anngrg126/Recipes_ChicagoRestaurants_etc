@@ -33,6 +33,8 @@ Doing a cd into AnnRecipes folder and doing git status again. Still does not sho
 
 I did a git add with the name of LambCurry.txt , not when you do a git status it shows new file with LambCurry.txt and modified Jotting File. 
 
+8. To stage files, you have to go into individual folders. even if you do git add . from within one folder, it doesn't add files in other folder. 
+
 
 
  
