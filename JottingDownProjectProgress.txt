@@ -1,0 +1,37 @@
+1. created a folder "Recipes_ChicagoRestaurants_etc". 
+2. Created two subfolders "AnnRecipes" and "AnnRestaurants". Within "AnnRestaurants", created two subfolders "TacoRestaurantsTried" and "TacoRestaurantsWishList". 
+3. Did a git bash here in the folder "Recipes_ChicagoRestaurants_etc". Did a "git init" there. 
+4. Created this text and started jotting down each action. 
+5. I did a git status, it only seemed to track files. Did not track folders. 
+6. Tried renaming the master branch using the command
+	 "git branch -m AnnBranch"
+got the error
+error: refname refs/heads/master not found
+fatal: Branch rename failed
+
+Summary of my activity: created a new git repo; and without any commits tried to rename the master branch and got the above error. 
+
+Stack Overflow Solution: 
+"You are currently in detached head state. You must checkout a new branch to associate it with the current commit:
+
+git checkout -b new_branch"
+
+Hence, did a 
+	git checkout -b new_branch
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
