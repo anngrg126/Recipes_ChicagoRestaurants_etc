@@ -19,6 +19,24 @@ git checkout -b new_branch"
 Hence, did a 
 	git checkout -b new_branch
 
+At this point, git branch does not show "master" and "anngrg126_Branch" branches. 
+"git status" shows "On branch anngrg126_Branch"
+
+I'm going to try my first commit now. 
+
+Okay, so after commit. when you do a git branch; you do not see master and just see "anngrg126_Branch"
+
+
+7. Added LambCurry.txt recipe to the folder AnnRecipes. Did a git status. LambCurry.txt is untracked because we've not staged it yet. It does not show as LambCurry.txt file. But shows there are untracked files in AnnRecipes/. So I guess folder structure does exist in git. 
+
+Doing a cd into AnnRecipes folder and doing git status again. Still does not show LambCurry.txt file is untracked. Instead says ./ (still in folder format) is untracked. 
+
+I did a git add with the name of LambCurry.txt , not when you do a git status it shows new file with LambCurry.txt and modified Jotting File. 
+
+
+
+ 
+ 
 
 
 
